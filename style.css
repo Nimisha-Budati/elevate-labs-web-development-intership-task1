@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5d5b3;
+    color: #333;
+}
+header {
+    background-color: #c05800;
+    text-align: center;
+    padding: 10px;
+}
+header img {
+    width: 90px;
+}
+nav {
+    background-color: #d46a11;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 5px 10px;
+}
+nav a:hover {
+    color: black;
+}
+nav a.active {
+    border-bottom: 2px solid white;
+}
+.hero {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.hero h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    max-width: 600px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #c05800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #a84d00;
+    transform: scale(1.05);
+}
+.page-section {
+    text-align: center;
+    padding: 80px 20px;
+}
+.page-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.page-section p {
+    font-size: 18px;
+}
+footer {
+    background-color: #c05800;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.social-links {
+    margin-top: 5px;
+}
+.social-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.social-links a:hover {
+    color: black;
+}
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .hero h1 {
+        font-size: 24px;
+    }
+    .hero p {
+        font-size: 14px;
+    }
+    .page-section h2 {
+        font-size: 28px;
+    }
+    .page-section p {
+        font-size: 16px;
+    }
+}
