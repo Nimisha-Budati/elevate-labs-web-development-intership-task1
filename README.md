@@ -57,7 +57,7 @@ Task1/
 ---
 
 ## 👩‍💻 Author
-**Nimisha Sri Sai Budati**
+**Budati Nimisha Sri Sai**
 
 Web Development Internship - Task 1
 
