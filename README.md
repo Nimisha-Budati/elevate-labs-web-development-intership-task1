@@ -91,12 +91,13 @@ Media Query Used:
 ## 📸 Screenshots
 
 ### Home Page - Desktop
-
 ![Home Page Desktop](homepage_desktop.png)
 
-### Home Page - Mobile
+### Home Page - Mobile (Part 1)
+![Home Page Mobile Part 1](homepage_mobile_0.png)
 
-![Home Page Mobile](homepage_mobile_0.png)
+### Home Page - Mobile (Part 2)
+![Home Page Mobile Part 2](homepage_mobile_1.png)
 
 ---
 
