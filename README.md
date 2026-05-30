@@ -17,7 +17,7 @@ Task1/
 ├── services.html
 ├── contact.html
 ├── style.css
-├── logo.jpg
+├── logo.png
 └── README.md
 
 ---
